@@ -36,7 +36,7 @@ body{
   .photo-profil {
     width: 80%;          /* Rétrécit l’image */
     right: 10%;          /* La décale un peu pour ne pas être collée à droite */
-    top: 40%;            /* Ajuste la position verticale si besoin */
+    top: 10%;            /* Ajuste la position verticale si besoin */
     transform: translateY(-50%);
   }
 }
