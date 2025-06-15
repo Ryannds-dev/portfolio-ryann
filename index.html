@@ -36,10 +36,13 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                    <video class="profil-video" controls>
-                    <source src="images/CV VIDEO DERA-SCHTYK Ryann.mp4" type="video/mp4">
-                    Ton navigateur ne supporte pas la vidéo.
-                    </video>
+                <iframe 
+                    class="profil-video"
+                    src="https://drive.google.com/file/d/1gZd-xzGowRN0HQpXOn_P4gjZAczRI_MY/preview"
+                    width="100%" 
+                    height="480"
+                    allow="autoplay">
+                </iframe>
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">Qui suis-je ?</h1>
@@ -113,7 +116,7 @@ Mais ce que je préfère, c’est PowerPoint : créer des présentations clair
                 <div class="layer">
                     <h3>Fiche de poste de l'association "Quartier des Geeks"</h3>
                     <p>2 pages WEB simples pour présenter rapidement l'association et les postes les plus important.</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://ryannds-dev.github.io/Fiche-de-poste-Quartier-des-Geeks/"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
             <div class="work">
@@ -121,7 +124,7 @@ Mais ce que je préfère, c’est PowerPoint : créer des présentations clair
                 <div class="layer">
                     <h3>To-do list "MemoryZz"</h3>
                     <p>Une to-do list basique qui m'a permis de m'initier au JavaScript</p>
-                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    <a href="https://ryannds-dev.github.io/MemoryZz/"><i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
         
@@ -137,16 +140,16 @@ Mais ce que je préfère, c’est PowerPoint : créer des présentations clair
                 <p><i class="fas fa-paper-plane"></i> rdschtyk@yahoo.com</p>
                 <p><i class="fas fa-phone-square-alt"></i> 06 89 44 69 77</p>
                 <div class="social-icons">
-                    <p><a href=""><i class="fab fa-linkedin"></i></a>https://www.linkedin.com/in/ryann-dera-schtyk-9721a327a/</p>
+                    <p><a href="https://www.linkedin.com/in/ryann-dera-schtyk-9721a327a/"><i class="fab fa-linkedin"></i></a>https://www.linkedin.com/in/ryann-dera-schtyk-9721a327a/</p>
                 </div>
-                <a href="images/my-cv.pdf" download class="btn btn2">Télécharger CV</a>
+                <a href="images/DERA--SCHTYK Ryann CV développeur WEB (ou intelligence artificielle).pdf" download class="btn btn2">Télécharger CV</a>
             </div>
             <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Nom" required>
-                    <input type="email" name="Email" placeholder="Email" required>
-                    <textarea name="Message" rows="6" placeholder="Votre message"></textarea>
-                    <button type="submit" class="btn btn2">Ennvoyer</button>
+               <form action="https://formsubmit.co/rdschtyk@yahoo.com" method="POST">
+                    <input type="text" name="name" placeholder="Nom" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" rows="6" placeholder="Votre message"></textarea>
+                    <button type="submit" class="btn btn2">Envoyer</button>
                 </form>
                 <span id="msg"></span>
             </div>
