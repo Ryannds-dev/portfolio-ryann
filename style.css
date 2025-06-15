@@ -31,6 +31,17 @@ body{
   background-position: center;
 }
 
+/*Pour faire du responsive = condition uniquement pour les écrans avec une largeur inférieure à 600px*/
+@media only screen and (max-width: 600px) {
+  .photo-profil {
+    width: 80%;          /* Rétrécit l’image */
+    right: 10%;          /* La décale un peu pour ne pas être collée à droite */
+    top: 60%;            /* Ajuste la position verticale si besoin */
+    transform: translateY(-50%);
+  }
+}
+
+
 .about-col-1 video {
   width: 100%;      /* pour qu'elle prenne la place prévue */
   border-radius: 15px; /* optionnel : arrondi pour faire joli */
