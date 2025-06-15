@@ -20,12 +20,13 @@ body{
 }
 
 .photo-profil {
-  position: absolute; /* pour la placer où tu veux */
-  top: 50%; /* ajuste la position verticale */
-  right: 25%; /* décalée vers la droite, ajuste à ton goût */
-  transform: translateY(-50%); /* centre verticalement */
-  width: 1000px; /* ajuste la taille comme tu veux */
-  height: auto; /* conserve le ratio */
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  transform: translateY(-50%);
+  width: 50vw;      /* 50% de la largeur de l'écran = responsive */
+  max-width: 1000px; /* limite haute pour éviter qu'elle grossisse trop */
+  height: auto;
   background-size: cover;
   background-position: center;
 }
