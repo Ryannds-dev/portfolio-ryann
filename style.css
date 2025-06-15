@@ -34,10 +34,9 @@ body{
 /*Pour faire du responsive = condition uniquement pour les écrans avec une largeur inférieure à 600px*/
 @media only screen and (max-width: 600px) {
   .photo-profil {
-    width: 80%;          /* Rétrécit l’image */
-    right: 10%;          /* La décale un peu pour ne pas être collée à droite */
-    top: 10%;            /* Ajuste la position verticale si besoin */
-    transform: translateY(-50%);
+    width: 80%;
+    right: 10%;
+    transform: translateY(-70%);  
   }
 }
 
