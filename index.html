@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio DERA--SCHTYK Ryann</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <img class="photo-profil" src="images/background.png" alt="Photo de moi">
+            <ul id="sidemenu">
+                <li><a href="#header">Accueil</a></li>
+                <li><a href="#about">Qui suis-je ?</a></li>
+                <li><a href="#services">Mes compétences</a></li>
+                <li><a href="#portfolio">Mes projets</a></li>
+                <li><a href="#contact">Coordonnées</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Développeur WEB</p>
+            <h1>Bonjour ! Je suis <span>Ryann</span><br>et je viens d'Évreux.</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------Qui suis-je ?---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                    <video class="profil-video" controls>
+                    <source src="images/CV VIDEO DERA-SCHTYK Ryann.mp4" type="video/mp4">
+                    Ton navigateur ne supporte pas la vidéo.
+                    </video>
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Qui suis-je ?</h1>
+                <p>
+                    Je m’appelle DERA--SCHTYK Ryann, originaire d’Évreux et étudiant ingénieur à Rouen.
+Passionné de création sous toutes ses formes — dessin, montage photo/vidéo, développement web, IA — je cherche une alternance pour développer mes compétences et donner vie à mes idées.
+
+Curieux, créatif et motivé, je suis prêt à rejoindre votre équipe. Contactez-moi !
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Objectifs</p>
+                    <p class="tab-links" onclick="opentab('experience')">Parcours scolaire</p>
+                    <p class="tab-links" onclick="opentab('education')">Activités extracurriculaires</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>Développeur WEB / Intelligence Artificielle</li>
+                        <li><span>En tant que développeur WEB :</span><br>Mettre ma créativité au service de sites web qui ne ressemblent à aucun autre.</li>
+                        <li><span>En tant que développeur IA</span><br>Décortiquer l’IA pour mieux la dompter et la rendre utile au quotidien.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - 2025 (INSA Rouen Normandie)</span><br>Préparation diplôme d'ingénieur en génie des procédés et gestion des risques</li>
+                        <li><span>2022 - 2024 (INSA Rouen Normandie)</span><br>Cycle préparatoire intégré de 2 ans</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023-2025</span><br>Trésorier de l'association "Quartier des Geeks" de l'INSA Rouen Normandie</li>
+                        <li><span>2024</span><br>Participation au concours d'éloquence inter-INSA</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------Mes compétences---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Mes compétences</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Développement WEB</h2>
+                <p>J’ai mis les pieds dans HTML, CSS et JavaScript : pas encore un pro, mais déjà assez pour bricoler des pages, tester des idées et donner forme à mes projets.
+Chaque ligne de code est pour moi une nouvelle façon de créer — et j’adore ça.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Montage photo/vidéo</h2>
+                <p>J’adore transformer des images ou des séquences brutes en quelque chose de plus vivant et plus expressif. Que ce soit pour un projet perso, une idée qui me passe par la tête ou juste pour m’amuser, le montage me permet de raconter une histoire à ma façon.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-file-powerpoint"></i>
+                <h2>Suite office</h2>
+                <p>En tant qu’ancien trésorier, j’ai pris l’habitude de manier Word et Excel pour gérer mes rapports et mes tableaux sans m’emmêler les formules.
+Mais ce que je préfère, c’est PowerPoint : créer des présentations claires, visuelles et dynamiques pour captiver ceux qui regardent — parce qu’une bonne idée mérite toujours une belle slide !</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------Mes projets------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Mes projets WEB</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Fiche de poste de l'association "Quartier des Geeks"</h3>
+                    <p>2 pages WEB simples pour présenter rapidement l'association et les postes les plus important.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>To-do list "MemoryZz"</h3>
+                    <p>Une to-do list basique qui m'a permis de m'initier au JavaScript</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+<!-- ----------Coordonnées------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Coordonnées</h1>
+                <p><i class="fas fa-paper-plane"></i> rdschtyk@yahoo.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 06 89 44 69 77</p>
+                <div class="social-icons">
+                    <p><a href=""><i class="fab fa-linkedin"></i></a>https://www.linkedin.com/in/ryann-dera-schtyk-9721a327a/</p>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Télécharger CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Nom" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Votre message"></textarea>
+                    <button type="submit" class="btn btn2">Ennvoyer</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
