@@ -46,7 +46,9 @@ body{
   }
   .photo-profil {
     width: 80%;
-    margin-bottom: 20px;
+    scale:70%;
+    top:25%;
+    left:10%;
   }
 }
 
