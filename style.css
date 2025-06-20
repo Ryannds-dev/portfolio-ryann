@@ -21,10 +21,10 @@ body{
 
 .photo-profil {
   position: absolute;
-  top: 50%;
-  right: 25%;
+  top: 55%;
+  right: 20%;
   transform: translateY(-50%);
-  width: 50vw;      /* 50% de la largeur de l'écran = responsive */
+  width: 43vw;      /* 50% de la largeur de l'écran = responsive */
   max-width: 1000px; /* limite haute pour éviter qu'elle grossisse trop */
   height: auto;
   background-size: cover;
